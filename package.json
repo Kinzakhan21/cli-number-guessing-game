@@ -1,0 +1,19 @@
+{
+  "name": "number_guessing_game_by_kinza",
+  "version": "1.0.1",
+  "description": "Test your guessing skills with this command-line number game!",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tsc && index.js"
+  },
+  "author": " kinza",
+  "license": "MiT",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
